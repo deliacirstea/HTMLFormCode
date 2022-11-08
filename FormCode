@@ -1,0 +1,68 @@
+<h1>Complete the formular</h1>
+<br />
+<form action="received.html" method="get">
+  <label for="name">Name</label>
+  <input name="name" id="name" type="text" />
+  <label for="email">Email</label>
+  <input
+    name="email"
+    id="email"
+    type="email"
+    required
+    placeholder="me@example.com"
+  />
+  <label for="password">Password</label>
+  <input name="password" id="password" />
+
+  <label for="search">Search</label>
+  <input name="search" id="search " type="search" placeholder="&#128269;" />
+
+  <label for="phone">Phone Number</label>
+  <input name="phone" id="phone" type="tel" />
+  <br />
+
+  <label for="textarea">Text Area</label>
+  <textarea name="textarea" id="textarea" cols="30" rows="15"></textarea>
+
+  <label for="date"> Date</label>
+  <input id="date" name="date" type="date" />
+
+  <label for="color">Color</label>
+  <input type="color" id="color" name="color" />
+
+  <label for="file">File</label>
+  <input type="file" id="file" name="file" accept="image/*" multiple />
+
+  <label for="checkbox">Checkbox</label>
+  <input
+    id="checkbox"
+    name="simplecheckbox"
+    value="The checkbox is checked"
+    type="checkbox"
+    checked
+  />
+
+  <label for="selectlist">Choose one</label>
+  <select name="selectlist" id="selectlist">
+    <option>First Option</option>
+    <option>Second choice</option>
+    <option>Third Thing</option>
+  </select>
+
+  <fieldset>
+    <legend>Checkboxes in a fieldset</legend>
+    <input
+      id="thischeck"
+      name="checkboxlist"
+      type="checkbox"
+      value="This"
+      checked
+    />
+    <label for="thischeck">This</label>
+    <input id="orcheck" name="checkboxlist" type="checkbox" value="And Or" />
+    <label for="orcheck">And Or</label>
+    <input id="thatcheck" name="checkboxlist" type="checkbox" value="That" />
+    <label for="thatcheck">That</label>
+  </fieldset>
+  <button>Sign up</button>
+</form>
